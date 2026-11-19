@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    background: #8d86c9;
+    color: #331E38;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+

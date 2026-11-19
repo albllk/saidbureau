@@ -1,0 +1,118 @@
+/*        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia;
+            background: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        nav {
+             background: #92008d;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background: #7a0076;
+        }
+
+
+        p {
+            text-indent: 2em;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 2rem 4rem 2rem;
+        }
+
+        h1 {
+            font-family: 'Verdana';
+        }
+        h2 {
+            font-family: 'Verdana';
+        }
+
+        .gallery-row {
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .gallery-row img.horizontal {
+            width: 425px;
+            height: auto;
+        }
+
+
+        .gallery-row img.vertical {
+            width: 325px;
+            height: auto;
+        }
+
+        .gallery-row .caption {
+            font-size: 0.875rem;
+            color: #333333;
+            text-align: center;
+            font-style: italic;
+            width: 100%;
+        }
+
+        .highlight-purple {
+            color: purple;
+            font-weight: bold;
+        }
+
+
+        p.p {
+            text-indent: 0em;
+        }
+
+
+
+        .footer-minimal {
+            background-color: var(--footer-bg-color);
+            color: var(--footer-text-color);
+            font-size: 0.875rem;
+            border-top: 1px solid #e7e7e7;
+        }
+
+        .footer-minimal__container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 1rem 1.5rem;
+        }
+
+        .footer-minimal__copyright {
+            margin: 0;
+            text-align: center;
+        } */
