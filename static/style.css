@@ -8,10 +8,64 @@ body {
     margin: 0;
     padding: 0;
     font-family: Georgia;
-    background: #8d86c9;
+    background: #e9dfdf;
     color: #331E38;
     line-height: 1.6;
     font-weight: bold;
 }
 
+.header {
+    background: #331E38;
+    color: #e9dfdf;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+}
 
+.header ul {
+    margin: 0;
+    text-align:center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia;
+    background: #acf6e1;
+    color: #1a1a1a;
+    line-height: 1.6;
+    text-indent: 10px;
+}
+
+body h2 {
+    font-size: 14px;
+    text-align: left;
+    color: #331E38;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #d8a0d8;
+}

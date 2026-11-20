@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
     {% block head %}
@@ -8,13 +8,18 @@
     <title>{% block title %}{% endblock %}</title>
     {% endblock %}
 </head>
+<div class="header">
+    <h1>Бюро Общее Четотам</h1>
+        <ul class="nav">
+        <li><a href="index.html">Главная (лендинг)</a></li>
+        <li><a href="custompage.html">Кастомная страница</a></li>
+        <li><a href="cartpage.html">Корзина</a></li>
+        <li><a href="lostfoundpage.html">Бюро потеряшек</a></li>
+    </ul>
+</div>
+
 <body>
-    <div class="sidenav">
-        <a href="index.html"><b>типа страница товаров</b></a>
-        <a href="cartpage.html"><b>типа корзина</b></a>
-        <a href="lostfoundpage.html"><b>типа бюро потеряшек</b></a>
-        <a href="custompage.html"><b>типа страница кастома</b></a>
-    </div>
+
 
     <div class="container">{% block content %}{% endblock %}</div>
 
