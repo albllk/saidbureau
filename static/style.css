@@ -32,7 +32,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Georgia;
-    background: #acf6e1;
+    background: #dbf5fa;
     color: #1a1a1a;
     line-height: 1.6;
     text-indent: 10px;
@@ -68,4 +68,14 @@ ul {
 
 .nav a:hover {
     color: #d8a0d8;
+}
+
+.footer-minimal {
+    background: #331E38;
+    color: #e9dfdf;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
